@@ -1,0 +1,22 @@
+/* Custom enhancements over Bootstrap */
+
+body {
+  background-color: #f4f4f4;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

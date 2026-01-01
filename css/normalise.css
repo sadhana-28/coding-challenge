@@ -1,0 +1,55 @@
+/* normalize.css - simplified version for lab use */
+
+/* 1. Remove default margin */
+body {
+  margin: 0;
+}
+
+/* 2. Improve text rendering */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 3. Make main elements consistent */
+main {
+  display: block;
+}
+
+/* 4. Normalize headings */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* 5. Remove border on images */
+img {
+  border-style: none;
+}
+
+/* 6. Normalize forms */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* 7. Remove default button styles */
+button {
+  background: none;
+  border: none;
+}
+
+/* 8. Normalize links */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* 9. Box sizing consistency */
+*, *::before, *::after {
+  box-sizing: border-box;
+}

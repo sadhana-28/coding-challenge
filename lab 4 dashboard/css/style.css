@@ -1,0 +1,18 @@
+/* Dashboard-specific refinements */
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details summary:hover {
+  text-decoration: underline;
+}
+
+details p {
+  margin-bottom: 0.3rem;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+}

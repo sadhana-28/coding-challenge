@@ -1,0 +1,14 @@
+/* Profile image styling */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+}
+
+/* Improve card appearance */
+.card {
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
