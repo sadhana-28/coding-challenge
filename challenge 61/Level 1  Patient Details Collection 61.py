@@ -1,0 +1,6 @@
+name = input("Enter Patient Name: ")
+age = int(input("Enter Age: "))
+gender = input("Enter Gender: ")
+contact = input("Enter Contact Number: ")
+address = input("Enter Address: ")
+medical_history = input("Enter Medical History: ")          
