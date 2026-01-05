@@ -1,0 +1,12 @@
+// Lab 6: Email Simulation
+
+let email = "student@karunya.edu";
+
+if (email.endsWith("@karunya.edu")) {
+  let invoiceData = { invoiceNo: "INV101", amount: 5200 };
+  console.log("Invoice sent to:", email);
+  console.log(JSON.stringify(invoiceData));
+  console.log("Thank you for shopping!");
+} else {
+  console.log("Invalid email address");
+}
